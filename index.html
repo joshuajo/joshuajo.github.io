@@ -4,20 +4,37 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<pre style='color:#000000;background:#ffffff;'><span style='color:#7f0055; '>#</span><span style='color:#7f0055; '>include </span><span style='color:#2a00ff; '>&lt;</span><span style='color:#3f3fbf; '>stdio.h</span><span style='color:#2a00ff; '>></span>
+<pre>
+eris@izzy:~$ cat eris.c
 
-<span style='color:#7f0055; font-weight:bold; '>int</span> <span style='color:#7f0055; font-weight:bold; '>main</span>(<span style='color:#7f0055; font-weight:bold; '>void</span>) {
+#include <stdio.h>
+
+int main(void) {
 	
-	<span style='color:#7f0055; font-weight:bold; '>printf</span>(<span style='color:#2a00ff; '>"</span><span style='color:#2a00ff; '>As if that blind rage had washed me clean, rid me of hope; </span><span style='color:#2a00ff; '>\</span><span style='color:#2a00ff; '></span>
-<span style='color:#2a00ff; '>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>for the first time, in that night alive with signs and stars,	</span><span style='color:#2a00ff; '>\</span><span style='color:#2a00ff; '></span>
-<span style='color:#2a00ff; '>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>I opened myself to the gentle indifference of the world.	</span><span style='color:#2a00ff; '>\</span><span style='color:#2a00ff; '></span>
-<span style='color:#2a00ff; '>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>Finding it so much like myself-so like a brother, really-I felt </span><span style='color:#2a00ff; '>\</span><span style='color:#2a00ff; '></span>
-<span style='color:#2a00ff; '>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>that I had been happy and that I was happy again. For everything </span><span style='color:#2a00ff; '>\</span><span style='color:#2a00ff; '></span>
-<span style='color:#2a00ff; '>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>to be consummated, for me to feel less alone, I had only to wish </span><span style='color:#2a00ff; '>\</span><span style='color:#2a00ff; '></span>
-<span style='color:#2a00ff; '>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>that there be a large crowd of spectators the day of my execution </span><span style='color:#2a00ff; '>\</span><span style='color:#2a00ff; '></span>
-<span style='color:#2a00ff; '>&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;</span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>and that they greet me with cries of hate. </span><span style='color:#2a00ff; '>\n</span><span style='color:#2a00ff; '>"</span>);
+	printf("As if that blind rage had washed me clean, rid me of hope; \
+        \nfor the first time, in that night alive with signs and stars,	\
+        \nI opened myself to the gentle indifference of the world.	\
+        \nFinding it so much like myself-so like a brother, really-I felt \
+        \nthat I had been happy and that I was happy again. For everything \
+        \nto be consummated, for me to feel less alone, I had only to wish \
+        \nthat there be a large crowd of spectators the day of my execution \
+        \nand that they greet me with cries of hate. \n");
 
-	<span style='color:#7f0055; font-weight:bold; '>return</span> 0; 
+	return 0; 
 }
+
+eris@izzy:~$ clang eris.c -o eris
+eris@izzy:~$ ./eris
+As if that blind rage had washed me clean, rid me of hope;         
+for the first time, in that night alive with signs and stars,	        
+I opened myself to the gentle indifference of the world.	        
+Finding it so much like myself-so like a brother, really-I felt         
+that I had been happy and that I was happy again. For everything         
+to be consummated, for me to feel less alone, I had only to wish         
+that there be a large crowd of spectators the day of my execution         
+and that they greet me with cries of hate. 
+eris@izzy:~$ 
+</pre>
+
 </body>
 </html>
