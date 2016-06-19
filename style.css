@@ -3,6 +3,7 @@
 body { 
     background-color: black;
     color: lime;
+    
 }
 
 pre {
@@ -13,7 +14,7 @@ pre {
 a {
     font-family: 'Fira Mono', Monaco, Monospace;
     color: lime;
-    font-size:10pt;
+    font-size:9pt;
 }
 
 a:link { 
