@@ -11,6 +11,7 @@ pre {
 }
 
 a {
+    font-family: 'Fira Mono', Monaco, Monospace;
     color: lime;
     font-size:10pt;
 }
