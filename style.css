@@ -11,6 +11,10 @@ pre {
 }
 
 a {
-    text-decoration: none;
+    color: lime;
+    font-size:10pt;
+}
+
+a:link { 
     color: lime;
 }
