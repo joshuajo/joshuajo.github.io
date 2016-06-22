@@ -3,16 +3,17 @@
 body { 
     background-color: black;
     color: lime;
-    background-image: url('http://i.imgur.com/6ZiPCOq.png');
+    background-image: url('loki-pngwolf.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 200px 50%;
     background-size:100px;
 }
 
 pre {
     font-family: 'Fira Mono', Monaco, Monospace;
     font-size:9pt;
+    margin:15px 30px 0 0;
 }
 
 a {
